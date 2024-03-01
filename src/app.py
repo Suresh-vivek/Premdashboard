@@ -12,8 +12,8 @@ from dash import dcc, html, callback
 from dash.dependencies import Input, Output
 from components.NavBar import sidebar
 from pages.homePage import home_page_content
-# from pages.teams_22_23 import team_analysis_content
-# from pages.PredictionPage import prediction_page_content
+from pages.teams_22_23 import team_analysis_content
+from pages.PredictionPage import prediction_page_content
 ROOT_FOLDER = os.path.abspath(os.path.join(
     os.path.dirname(os.path.abspath(__file__)), os.pardir))
 SRC_FOLDER = os.path.join(ROOT_FOLDER, "src/")
