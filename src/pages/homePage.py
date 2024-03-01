@@ -14,14 +14,14 @@ home_page_content = html.Div([
             PLChamps
         ]),
         dbc.Row([
-            GoalsandAssists,
+            ToSuc,
             TeamGoals
         ]),
         dbc.Row([
             MostFouls,PassCompletion
         ]),
         dbc.Row([
-            ToSuc,Err
+            GoalsandAssists,Err
         ]),
         dbc.Row([
             Gca,G_Sot
